@@ -50,19 +50,21 @@
 #header .button img{
     padding:0,0,35px;
     border-radius: 1rem;
-    width: 100%;
+    width: 100%;    
 }
 footer{
     display: inline-flex;
     border-radius: 1em;
     padding: 1em;
-    position: absolute;
+    /* position: absolute; */
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
     width: 100%;
-    
+    position: relative;
+    position: absolute;
+    bottom: 0;
 }
-footer a{
+/* footer a{
     padding: 10px;
-}
+} */
