@@ -1,0 +1,63 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: 'Inconsolata', monospace;
+}
+#header{
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+#header .Logo .skole-logo{
+    width: 230px;
+
+}
+#header .button .python-logo{
+    width: 100px;
+}
+#header .menu{
+    
+    display: inline-flex;
+    justify-content: space-between;
+    align-content: center;
+
+}
+#header .menu a{
+    padding: 5px;
+    text-decoration: none;
+    color:black;
+    font-size: 16px;
+}
+hr{
+    
+    height:5px;
+    border-width:0;
+    background-color:#7eb487;
+    box-shadow:1px 1px 3px rgba(5, 5, 243, 0.6) ;
+   
+
+}
+#main-menu{
+    background-color: #e4c5f2;
+}   
+#main-menu .menu{
+    height: 100vh;
+    gap: 1rem;
+    display: grid;
+    grid-template-columns: 3fr;
+    grid-auto-rows: 3fr;
+    margin: 1rem;
+    padding: 10px 0px 0px 0;
+}
+
+
+#main-menu .menu a{
+    text-decoration: none;
+    text-align: center;
+    /* border:  2px solid black; */
+    background-color: rgb(230, 232, 238);
+}
