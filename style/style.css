@@ -1,13 +1,13 @@
 *{
     background-color: rgb(246, 244, 241);
+    /* font-family: 'Mynerve', cursive;
+    font-family: 'Nunito Sans', sans-serif; */
+    /* font-family: 'Phudu', cursive; */
     font-family: 'Roboto Mono', monospace;
+    /* font-family: 'Tilt Prism', cursive; */
+    /*font-family: 'Shantell Sans', cursive; */
     margin:0;
     padding:0;
-}
-
-body {
-    font-family: 'Inconsolata', monospace;
-    height: 1270px;
 }
 
 #header{
@@ -53,11 +53,11 @@ body {
     width: 100%;    
 }
 footer{
-  
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 
-
-/* 
-    display: inline-flex;
+    /* display: inline-flex;
     border-radius: 1em;
     padding: 1em;
     position: absolute;
@@ -68,11 +68,6 @@ footer{
     position: relative;
     position: absolute;
     bottom: 0; */
-}
-#footer .footer{
-    display: inline-flex;
-
-
 }
 /* footer a{
     padding: 10px;
