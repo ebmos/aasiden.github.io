@@ -1,2 +1,3 @@
 # aasiden.github.io
-<h1> This is our web site </h1>
+<h1> Åpen dag - 27 april 2023 </h1>
+<p></p>
